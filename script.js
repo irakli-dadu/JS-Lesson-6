@@ -44,6 +44,9 @@ buttonAdd.addEventListener('click', function() {
     }
 
      let newLi = document.createElement('li')
+     newLi.classList.add('new-li')
+
+     
      let delBtn = document.createElement('button')
      delBtn.textContent = 'delete'
      delBtn.addEventListener('click', function() {
