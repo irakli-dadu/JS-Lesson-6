@@ -45,3 +45,38 @@ a {
     transition: all 0.3s ease-in-out;
     background-color: white;
 }
+
+
+
+/*  INPUT THINGZZZzzzzzzzzzzzzzzzzzzzz */
+
+
+.whole-box {
+    margin: 50px
+}
+
+.spanforinput {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.inputClass {
+    border: 2px solid yellow;
+}
+
+.inputClass:focus::placeholder {
+    color: transparent;
+}
+
+.button {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: green;
+}
+
+.ghost-ul {
+    padding: 15px;
+    list-style-type: circle;
+    margin-top: 20px;
+}
