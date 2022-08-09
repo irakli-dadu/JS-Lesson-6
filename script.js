@@ -46,17 +46,18 @@ buttonAdd.addEventListener('click', function() {
      let newLi = document.createElement('li')
      newLi.classList.add('new-li')
 
-     
-     let delBtn = document.createElement('button')
-     delBtn.textContent = 'delete'
-     delBtn.addEventListener('click', function() {
+     let iBtn = document.createElement('i')
+     iBtn.innerHTML = '<i class="fa-solid fa-ban"></i>'
+
+     iBtn.addEventListener('click', function() {
         newLi.remove()
      })
+
     newLi.textContent = response
 
     inputUl.appendChild(newLi)
 
-    newLi.appendChild(delBtn)
+    newLi.appendChild(iBtn)
 
     lineInput.value = ' '
 })

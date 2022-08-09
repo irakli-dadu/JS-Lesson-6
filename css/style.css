@@ -88,3 +88,9 @@ a {
 .new-li {
     margin-top: 10px;
 }
+
+.fa-ban {
+    color: red;
+    margin-left: 10px;
+    font-size: 20px;
+}
